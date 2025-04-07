@@ -1,13 +1,12 @@
 def check_vowels():
     # Código a implementar utilizando input.
     nombre = input().lower()
-    print (nombre)
     
     
     
-    i= ("i" in nombre)
     a= ("a" in nombre)
     e= ("e" in nombre)
+    i= ("i" in nombre)
     o= ("o" in nombre)
     u= ("u" in nombre)
     
@@ -18,6 +17,8 @@ def check_vowels():
     print(f'Contiene i: {i}')
     print(f'Contiene o: {o}')
     print(f'Contiene u: {u}')
+    
+
     
 
 
